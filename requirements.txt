@@ -1,1 +1,11 @@
-Python 3.14
+Python 3.14.7
+numpy
+pandas
+scikit-learn
+matplotlib
+tensorflow
+keras
+torch
+torchvision
+xgboost
+flwr
