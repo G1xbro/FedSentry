@@ -6,20 +6,13 @@
 FedSentry/
 │
 ├── data/                           # Dataset storage
-│   ├── raw/                        # Original files
-│   ├── processed/                  # Preprocessed partitions (IID, non-IID)
+│   ├── raw/                        # Original Dataset files
+│   └── processed/                  # Preprocessed partitions (IID, Mild heteroginity, Moderate Heteroginity, Non - IID)
 │
 ├── notebooks/                      # Jupyter experiments
 │   ├── preprocessing.ipynb         # Data cleaning, feature engineering
 │   ├── baseline_centralized.ipynb  # Centralized IDS training
-│   ├── federated_training.ipynb    # FL experiments (FedAvg, FedProx)
-│
-├── src/                            # Core source code
-│   ├── preprocessing/              # Scripts for cleaning, encoding, partitioning
-│   ├── models/                     # CNN, BiLSTM, XGBoost implementations
-│   ├── federated/                  # Flower/PySyft FL setup
-│   ├── evaluation/                 # Metrics, confusion matrix, plots
-│   └── utils/                      # Helper functions (logging, configs)
+│   └── federated_training.ipynb    # FL experiments (FedAvg, FedProx)
 │
 ├── results/                        # Store evaluation outputs
 │   ├── centralized/                # Centralized baseline metrics
