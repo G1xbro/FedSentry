@@ -1,4 +1,4 @@
-data/raw/*
+data/*
 .ipynb_checkpoints/
 *.tmp
 *.log
