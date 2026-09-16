@@ -1,5 +1,7 @@
 # FedSentry
 ## Federated Learning - Based Intrusion Detection System​ for Heterogeneous and Distributed Networks
+### Research Goal
+FedSentry aims to demonstrate how federated learning can enhance IDS scalability, privacy, and robustness in real-world IoT environments, addressing challenges of data heterogeneity, communication efficiency, and decentralized security.
 
 ### File Structure 🗃️
 ```
